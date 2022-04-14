@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <select name="timer" id="timer">
+        <option value="25">25 min</option>
+        <option value="30">30 min</option>
+        <option value="45">45 min</option>
+    </select>
+    <button class="btn start">Start</button>
+    <h1>Pomodoro</h1>
+    <div class="countdown">
+        <div>
+            <h1 class="min">
+            </h1>
+            <h2>Mins</h2>
+        </div>
+        <div>
+            <h1 class="sec">
+            </h1>
+            <h2>Secs</h2>
+        </div>
+    </div>
+    <div class="btn-container">
+        <button class="btn pause">Pause</button>
+        <button class="btn reset">Reset</button>
+        <button class="btn resume">Resume</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

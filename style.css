@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.countdown{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 20px;
+}
+
+.btn{  
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-block: 20px;
+    margin-inline: 10px;
+}
+
